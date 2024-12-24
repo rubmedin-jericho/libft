@@ -6,14 +6,14 @@
 /*   By: rubmedin <rubmedin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/24 10:16:24 by rubmedin          #+#    #+#             */
-/*   Updated: 2024/12/24 11:00:56 by rubmedin         ###   ########.fr       */
+/*   Updated: 2024/12/24 19:00:10 by rubmedin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #define BUFF 1
 
-void	ft_putchar_fd(char	c, int	fd)
-{	
+void	ft_putchar_fd(char c, int fd)
+{
 	write(fd, &c, BUFF);
 }
